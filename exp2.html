@@ -1,0 +1,16 @@
+<html>
+    <body>
+        <h1>the document object</h1>
+        <h2>the queryselector all() method</h2>
+        <p>add a background color all elemenbts with class="example":
+        </p>
+        <h2 class="example">a heading.</h2>
+        <p class="example"> a paragraph.</p>
+        <script>
+            const Nodelist=document.querySelectorAll(".example");
+            for(let i=0;i<Nodelist.length;i++){
+                Nodelist[i].style.backgroundColor="blue";
+            }
+        </script>
+    </body>
+</html>
